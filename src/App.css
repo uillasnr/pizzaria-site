@@ -121,10 +121,19 @@ body {
 .row {
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .col-6 {
   width: 50%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4{
+  width: 33.333333333333333%;  /*  depois ver texto da pizza */
 }
 
 .about h3 {
@@ -159,4 +168,89 @@ body {
 
 .about-img img {
   width: 100%;
+}
+
+.shop {
+  width: 100%;
+  background: url("/public/img/bg.jpg");
+  height: 450px;
+  background-attachment: fixed;
+}
+
+.shop-text {
+  height: 450px;
+  display: flex;
+  align-items: center;
+  width: 400px;
+  justify-content: center;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.shop-text h1 {
+  font-size: 40px;
+  line-height: 60px;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 0.5px;
+}
+
+.shop-button {
+  margin-top: 35px;
+}
+
+.clients {
+  width: 100%;
+  padding: 80px 0;
+  background: url("/public/img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  background-attachment: fixed;
+}
+
+.client {
+  text-align: center;
+}
+
+.client h1 {
+  font-style: 45px;
+}
+
+.client p {
+  font-style: 18px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.prices{
+  width: 100%;
+  padding: 80px 0;
+}
+.price{
+  padding: 20px;
+  text-align: center;
+}
+.price-img{
+  width: 100%;
+}
+
+.price-img img{
+  width: 250px;
+}
+
+.price_heading{
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+.price-text{
+  margin-top: 15px;
+  color: #888888;
+  font-size: 18px;
+  font-weight: 300;
+}
+.price-rs{
+  font-size: 30px;
+  margin-top: 15px;
 }
